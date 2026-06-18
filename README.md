@@ -10,7 +10,7 @@ Features:
 - Erase full flash and install clean firmware.
 - Board selection from PicoKeyApp board manifest, with Tenstar defaults.
 - Generate PHY commission blob for LED/product settings.
-- PicoForge-style web UI without license checks.
+- PicoKeyApp-style private-use web UI.
 
 Default target: Tenstar RP2350, 16MB flash, WS2812 LED on GPIO 22.
 
