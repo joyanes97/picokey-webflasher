@@ -23,6 +23,14 @@ pip install fastapi uvicorn python-multipart pypicoboot
 uvicorn app:app --host 0.0.0.0 --port 8080
 ```
 
+Deploy on `dev-picokey`:
+
+```bash
+sudo ./deploy.sh
+```
+
+The server uses a GitHub deploy key at `~/.ssh/picokey-webflasher_deploy`.
+
 Environment:
 
 - `PICOKEY_DATA`: state directory, default `/opt/picokey-web/data`
