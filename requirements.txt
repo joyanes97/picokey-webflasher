@@ -2,3 +2,4 @@ fastapi
 uvicorn
 python-multipart
 pypicoboot
+git+https://github.com/Chr0n0stasis/pypicokey-mirror.git

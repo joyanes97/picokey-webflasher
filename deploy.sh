@@ -12,6 +12,10 @@ else
 fi
 
 cd "$APP_DIR"
+if command -v apt-get >/dev/null 2>&1; then
+  apt-get update -qq
+  apt-get install -y -qq pcscd libpcsclite-dev swig >/dev/null
+fi
 python3 -m venv .venv
 . .venv/bin/activate
 pip install --upgrade pip
