@@ -6,3 +6,5 @@ images/
 build/
 pico-fido-build/
 .DS_Store
+PicoKey_App-x86_64.AppImage
+PicoKeyApp.app/
