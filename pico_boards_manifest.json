@@ -1,0 +1,1539 @@
+{
+  "version": 4,
+  "datetime": "2026-04-07T19:24:54.248137+00:00",
+  "boards": [
+    {
+      "name": "0xcb_helios",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 25
+    },
+    {
+      "name": "ATMegaZero ESP32-S2",
+      "flash_size_bytes": 16777216,
+      "led_driver": "neopixel",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit Feather ESP32-S2",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 33,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit Feather ESP32-S2 Reverse TFT",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 33,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit Feather ESP32-S2 TFT",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit Feather ESP32-S3 2MB PSRAM",
+      "flash_size_bytes": 2097152,
+      "led_driver": "neopixel",
+      "led_pin": 39,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Adafruit Feather ESP32-S3 No PSRAM",
+      "flash_size_bytes": 8388608,
+      "led_driver": "neopixel",
+      "led_pin": 33,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Adafruit Feather ESP32-S3 Reverse TFT",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 33,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Adafruit Feather ESP32-S3 TFT",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 33,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Adafruit FunHouse",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 37,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit MagTag 2.9\"",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 1,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit Metro ESP32-S2",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 45,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit QT Py ESP32-S2",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 39,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Adafruit QT Py ESP32-S3 No PSRAM",
+      "flash_size_bytes": 8388608,
+      "led_driver": "neopixel",
+      "led_pin": 39,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "BPI-Leaf-S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Bee Motion",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Bee Motion S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Bee S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "CYD ESP32-1732S019",
+      "flash_size_bytes": 33554432,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "CYD ESP32-8048S050",
+      "flash_size_bytes": 33554432,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "CYD ESP32-8048S070",
+      "flash_size_bytes": 33554432,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Crabik Slot ESP32-S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Cytron Maker Feather AIoT S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "DFRobot Firebeetle 2 ESP32-S3",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Deneyap Kart 1A v2",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Deneyap Mini",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Deneyap Mini v2",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Department of Alchemy MiniMain ESP32-S2",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "ESP32 Development Boards",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "ESP32 Development Boards",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "ESP32-S3 Super Mini",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 48,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "ESP32-S3-Box",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "ESP32-S3-USB-OTG",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "ESP32-S3-Zero",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": 21,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "ESP32S2 Dev Module",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "ESP32S2 Native USB",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "ESP32S3 CAM LCD",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "ESP32S3 Dev Module",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "ESP32S3 Walter Module",
+      "flash_size_bytes": 16777216,
+      "led_driver": null,
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Edgebox-ESP-100",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Espressif ESP32-S2-DevKitC-1",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Espressif ESP32-S2-DevKitM-1",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Espressif ESP32-S3-DevKitC-1",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Espressif ESP32-S3-DevKitM-1",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Espressif ESP32-S3-EYE",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Espressif ESP32-S3-Korvo-1",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Espressif ESP32-S3-Korvo-2",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Espressif ESP32-S3-USB-Bridge",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Franzininho WiFi",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Franzininho WiFi MSC",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "Heltec WiFi Kit 32(V3)",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Heltec WiFi LoRa 32(V3) / Wireless shell(V3) / Wireless stick lite (V3)",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LOLIN S2 Mini",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 1,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "LOLIN S2 PICO",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "LOLIN S3",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Beam Supreme",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Deck",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Deck Plus",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Display-S3",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Display-S3 AMOLED",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 0,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Display-S3 AMOLED Touch",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 0,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Display-S3 Touch",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Dongle S3",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Embed",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Embed CC1101",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T-Watch S3",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T3S3 V1.0",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "LilyGo T4-S3",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 3,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "M5Stack-ATOMS3",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "RedPill(+) ESP32-S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "SparkFun ESP32-S2 Thing Plus",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "TAMC Termod S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "UM FeatherS2",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "UM FeatherS2 Neo",
+      "flash_size_bytes": 4194304,
+      "led_driver": "neopixel",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "UM FeatherS3",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "UM PROS3",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "UM RMP",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "UM TinyS2",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "UM TinyS3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "Waveshare ESP32 S3 Mini",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "WiFiduino32S3",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "XIAO ESP32S3",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": 21,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "XIAO ESP32S3 Plus",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 21,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "XIAO ESP32S3 Sense",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": 21,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "adafruit_feather_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "adafruit_feather_rp2040_adalogger",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 17
+    },
+    {
+      "name": "adafruit_feather_rp2040_usb_host",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": 13
+    },
+    {
+      "name": "adafruit_feather_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 21
+    },
+    {
+      "name": "adafruit_fruit_jam",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 32
+    },
+    {
+      "name": "adafruit_itsybitsy_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 17
+    },
+    {
+      "name": "adafruit_kb2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 17
+    },
+    {
+      "name": "adafruit_macropad_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 19
+    },
+    {
+      "name": "adafruit_qtpy_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 12
+    },
+    {
+      "name": "adafruit_trinkey_qt2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 27
+    },
+    {
+      "name": "amethyst_fpga",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "archi",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 24
+    },
+    {
+      "name": "arduino_nano_rp2040_connect",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 6
+    },
+    {
+      "name": "cytron_maker_pi_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 18
+    },
+    {
+      "name": "datanoisetv_rp2040_dsp",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "datanoisetv_rp2350_dsp",
+      "platform": "rp2350",
+      "flash_size_bytes": 8388608,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "defcon32_badge",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 4
+    },
+    {
+      "name": "eelectronicparts_picomini_16mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "eelectronicparts_picomini_2mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "eelectronicparts_picomini_4mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "eelectronicparts_picomini_8mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "eetree_gamekit_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": 4
+    },
+    {
+      "name": "garatronic_pybstick26_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 1048576,
+      "led_driver": "pico",
+      "led_pin": 23
+    },
+    {
+      "name": "gen4_rp2350_24",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_24ct",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_24t",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_28",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_28ct",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_28t",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_32",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_32ct",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_32t",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_35",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_35ct",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "gen4_rp2350_35t",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "hellbender_0001",
+      "platform": "rp2350",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 39
+    },
+    {
+      "name": "hellbender_2350A_devboard",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "ilabs_challenger_rp2350_bconnect",
+      "platform": "rp2350",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 22
+    },
+    {
+      "name": "ilabs_challenger_rp2350_wifi_ble",
+      "platform": "rp2350",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": 7
+    },
+    {
+      "name": "ilabs_opendec02",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": 15
+    },
+    {
+      "name": "machdyne_werkzeug",
+      "platform": "rp2040",
+      "flash_size_bytes": 1048576,
+      "led_driver": "pico",
+      "led_pin": 20
+    },
+    {
+      "name": "melopero_perpetuo_rp2350_lora",
+      "platform": "rp2350",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": 23
+    },
+    {
+      "name": "melopero_shake_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "metrotech_xerxes_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "microS2",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s2"
+    },
+    {
+      "name": "net8086_usb_interposer",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 7
+    },
+    {
+      "name": "none",
+      "platform": null,
+      "flash_size_bytes": null,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "nullbits_bit_c_pro",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pimoroni",
+      "led_pin": 17
+    },
+    {
+      "name": "olimex_rp2350_xl",
+      "platform": "rp2350",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "olimex_rp2350_xxl",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "phyx_rick_tny_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 11
+    },
+    {
+      "name": "pi-plates_micropi",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pico",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pico2",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pico2_w",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "cyw43",
+      "led_pin": 0
+    },
+    {
+      "name": "pico_w",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "cyw43",
+      "led_pin": 0
+    },
+    {
+      "name": "pimoroni_badger2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pimoroni_interstate75",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pimoroni",
+      "led_pin": 17
+    },
+    {
+      "name": "pimoroni_keybow2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "pimoroni_motor2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 18
+    },
+    {
+      "name": "pimoroni_pga2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "pimoroni_pga2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pimoroni_pico_plus2_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pimoroni_pico_plus2_w_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "cyw43",
+      "led_pin": 0
+    },
+    {
+      "name": "pimoroni_picolipo_16mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pimoroni_picolipo_4mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pimoroni_picosystem",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pimoroni",
+      "led_pin": 13
+    },
+    {
+      "name": "pimoroni_plasma2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pimoroni",
+      "led_pin": 17
+    },
+    {
+      "name": "pimoroni_plasma2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pimoroni",
+      "led_pin": 17
+    },
+    {
+      "name": "pimoroni_servo2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 18
+    },
+    {
+      "name": "pimoroni_tiny2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pimoroni",
+      "led_pin": 19
+    },
+    {
+      "name": "pimoroni_tiny2040_2mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pimoroni",
+      "led_pin": 19
+    },
+    {
+      "name": "pimoroni_tiny2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pimoroni",
+      "led_pin": 19
+    },
+    {
+      "name": "pololu_3pi_2040_robot",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "pololu_zumo_2040_robot",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "seeed_xiao_rp2040",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 12
+    },
+    {
+      "name": "seeed_xiao_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 22
+    },
+    {
+      "name": "solderparty_rp2040_stamp",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "ws2812",
+      "led_pin": 21
+    },
+    {
+      "name": "solderparty_rp2040_stamp_carrier",
+      "platform": "rp2040",
+      "flash_size_bytes": null,
+      "led_driver": "pico",
+      "led_pin": 20
+    },
+    {
+      "name": "solderparty_rp2040_stamp_round_carrier",
+      "platform": "rp2040",
+      "flash_size_bytes": null,
+      "led_driver": "ws2812",
+      "led_pin": 24
+    },
+    {
+      "name": "solderparty_rp2350_stamp",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "solderparty_rp2350_stamp_xl",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "sparkfun_iotnode_lorawan_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 25
+    },
+    {
+      "name": "sparkfun_iotredboard_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "cyw43",
+      "led_pin": 0
+    },
+    {
+      "name": "sparkfun_micromod",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "sparkfun_promicro",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 25
+    },
+    {
+      "name": "sparkfun_promicro_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 25
+    },
+    {
+      "name": "sparkfun_thingplus",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 8
+    },
+    {
+      "name": "sparkfun_thingplus_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "cyw43",
+      "led_pin": 0
+    },
+    {
+      "name": "sparkfun_xrp_controller",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "cyw43",
+      "led_pin": 0
+    },
+    {
+      "name": "switchscience_picossci2_conta_base",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "switchscience_picossci2_dev_board",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "switchscience_picossci2_micro",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "switchscience_picossci2_rp2350_breakout",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "switchscience_picossci2_tiny",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "tenstar",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "ws2812",
+      "led_pin": 22
+    },
+    {
+      "name": "tinycircuits_thumby_color_rp2350",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "u-blox NORA-W10 series (ESP32-S3)",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "unPhone 8",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "unPhone 9",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": null,
+      "platform": "esp32s3"
+    },
+    {
+      "name": "uugear_wittypi5_hat_plus",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 22
+    },
+    {
+      "name": "vgaboard",
+      "platform": null,
+      "flash_size_bytes": null,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_pico_cam_a",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2040_ble",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2040_eth",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 25
+    },
+    {
+      "name": "waveshare_rp2040_geek",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2040_lcd_0.96",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2040_lcd_1.28",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2040_matrix",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2040_one",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2040_pizero",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2040_plus_16mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "waveshare_rp2040_plus_4mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "waveshare_rp2040_power_management_hat_b",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2040_tiny",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2040_touch_lcd_1.28",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2040_zero",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2350_eth",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 25
+    },
+    {
+      "name": "waveshare_rp2350_geek",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2350_lcd_0.96",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2350_lcd_1.28",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2350_one",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2350_plus_16mb",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2350_plus_4mb",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2350_tiny",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2350_touch_lcd_1.28",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "none",
+      "led_pin": null
+    },
+    {
+      "name": "waveshare_rp2350_usb_a",
+      "platform": "rp2350",
+      "flash_size_bytes": 2097152,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "waveshare_rp2350_zero",
+      "platform": "rp2350",
+      "flash_size_bytes": 4194304,
+      "led_driver": "ws2812",
+      "led_pin": 16
+    },
+    {
+      "name": "weact_studio_rp2040_16mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "weact_studio_rp2040_2mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "weact_studio_rp2040_4mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 4194304,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "weact_studio_rp2040_8mb",
+      "platform": "rp2040",
+      "flash_size_bytes": 8388608,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "weact_studio_rp2350b_core",
+      "platform": "rp2350",
+      "flash_size_bytes": 16777216,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "wiznet_w5100s_evb_pico",
+      "platform": "rp2040",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": 25
+    },
+    {
+      "name": "wiznet_w5100s_evb_pico2",
+      "platform": "rp2350",
+      "flash_size_bytes": 2097152,
+      "led_driver": "pico",
+      "led_pin": 25
+    }
+  ]
+}
