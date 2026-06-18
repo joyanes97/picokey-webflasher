@@ -1,0 +1,24 @@
+[Unit]
+Description=PicoKey Web Flasher
+After=network.target
+
+[Service]
+Type=simple
+User=picokey
+Group=picokey
+WorkingDirectory=/opt/picokey-web
+Environment=PICOKEY_DATA=/opt/picokey-web/data
+Environment=PICOKEY_IMAGES=/opt/picokey-web/images
+Environment=PICOKEY_MANIFEST=/opt/picokey-web/pico_boards_manifest.json
+Environment=PICOKEY_BUILD_SCRIPT=/opt/picokey-web/build-pico-fido.sh
+Environment=PICOKEY_BUILD_ROOT=/opt/picokey-web/build
+ExecStart=/opt/picokey-web/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8080
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/picokey-web /dev/bus/usb
+
+[Install]
+WantedBy=multi-user.target
